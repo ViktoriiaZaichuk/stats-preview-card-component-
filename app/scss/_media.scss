@@ -1,0 +1,90 @@
+/* RESPONSIVE */
+
+@media only screen and (max-width: 1400px) {
+    .card-container {
+        width: 90vw;
+    }
+}
+
+
+@media only screen and (max-width: 1111px) {
+    .card-container {
+        width: 94vw;
+        text-align: center;
+    }
+    .txt-block {
+        flex-basis: 45%;
+    }
+    .txt-stats {
+        padding: 0;
+    }
+    .img-block {
+        flex-basis: 55%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+        .txt-block {
+            flex-basis: 40%;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem;
+        }
+        .mainprgrph {
+            padding-bottom: 3rem;
+        }
+        .txt-stats p {
+            padding-bottom: 3rem;
+        }
+        .img-block {
+            flex-basis: 60%;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-container {
+        height: 100%;
+        flex-direction: column-reverse;
+        width: 90vw;
+        margin: 5rem 0 6rem 0;
+    }
+    .txt-block {
+        flex-basis: 50%;
+    }
+    .txt-stats {
+        flex-direction: column;
+    }
+    .img-block {
+        flex-basis: 50%;
+        background: url("https://github.com/ViktoriiaZaichuk/stats-preview-card-component-/blob/main/images/image-header-mobile.jpg?raw=true"), $violetAccent;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+        min-height: 45rem;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .img-block {
+        flex-basis: 50%;
+        min-height: 30rem;
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .img-block {
+        flex-basis: 50%;
+        min-height: 25rem;
+
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .img-block {
+        flex-basis: 50%;
+        min-height: 18rem;
+
+    }
+}

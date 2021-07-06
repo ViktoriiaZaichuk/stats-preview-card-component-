@@ -1,0 +1,77 @@
+.card-container {
+    background-color: $desaturatedBlue;
+    width: 77%; 
+    height: 45rem;
+    max-width: 111rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.txt-block {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.5rem;
+}
+
+h1 {
+    padding-bottom: 2.5rem;
+    color: $white;
+
+}
+
+strong {
+    color: $violetAccent;
+}
+
+.mainprgrph {
+    color: $whiteParagraph;
+    max-width: 35rem; 
+    display: inline-block;
+    align-self: center;
+    padding-bottom: 6rem;
+}
+
+.txt-stats {
+    width: 100%;
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    justify-content: space-between;
+    color: $whiteStats;
+    font-family: $lexendDeca;
+    padding-right: 3rem;
+    font-size: 1.3rem;
+}
+
+span {
+    color: $white;
+    font-weight: 700;
+    font-size: 2.2rem;
+    font-family: $inter;
+}
+
+.img-block {
+    flex-basis: 50%;
+    background: url("https://github.com/ViktoriiaZaichuk/stats-preview-card-component-/blob/main/images/image-header-desktop.jpg?raw=true"), $violetAccent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-blend-mode: multiply;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 3rem;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
